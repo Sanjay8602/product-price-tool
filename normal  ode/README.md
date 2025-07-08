@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- Docker (recommended, any OS)
+- Docker 
 - Or: Node.js (v18+), npm
 
 ## Setup
@@ -10,8 +10,7 @@
 ### 1. Clone the repository
 
 ```sh
-git clone <your-repo-url>
-cd <your-repo-directory>
+git clone https://github.com/Sanjay8602/product-price-tool.git
 ```
 
 ### 2. Configure Environment Variables
@@ -66,3 +65,6 @@ Invoke-RestMethod -Uri "http://localhost:3000/api/prices" `
   -Body '{ "country": "US", "query": "iPhone 14 Pro, 128GB" }'
 ```
 
+
+### Proof:
+I have provided on screenshot file
